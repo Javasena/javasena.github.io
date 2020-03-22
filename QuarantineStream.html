@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+			background-color: #000000;
+			color: #CECECE;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size: 100%;
+			padding: 0px;
+			overflow:hidden;
+			}
+
+			.left {
+			position: fixed;
+			top: 0%;
+			left: 0%;
+			width: 70%;
+			height: auto;
+			}
+
+			.right {
+			position: fixed;
+			top: 0%;
+			right: 0%;
+			width: 30%;
+			height: auto;
+			}
+
+			#stream {
+			bottom: 0%;
+			margin-top: 22px;
+			}
+
+			#chat {
+			bottom: 0%;
+			z-index: -1;
+			}
+
+			iframe {
+			width: 100%;
+			height: 100%;
+			border-width: 0px;
+			}
+			</style>
+		<title>Quarantine & Chill</title>
+	</head>
+	<body>
+
+		<div class="left" id="stream">
+			<iframe src="https://angelthump.com/gummybee/embed" frameborder="0" framespacing="0" width="100%" height="100%" /></iframe>
+		</div>
+
+		<div class="right" id="chat">
+			<script id="sid0020000059218199292">(function() {function async_load(){s.id="cid0020000059218199292";s.src='http://st.chatango.com/js/gz/emb.js';s.style.cssText="width:400px;height:600px;";s.async=true;s.text='{"handle":"quarantineandchill","arch":"js","styles":{"a":"212223","b":"0","c":"cecece","d":"cecece","e":"212223","f":0,"g":"cecece","h":"212223","i":0,"j":"cecece","k":"cecece","l":"2b2d2c","m":"cecece","n":"212223","p":"10","q":"2b2d2c","r":0,"t":0,"usricon":0.50,"sbc":"2b2d2c","surl":0,"allowpm":0}}';var ss = document.getElementsByTagName('script');for (var i=0, l=ss.length; i < l; i++){if (ss[i].id=='sid0020000059218199292'){ss[i].id +='_';ss[i].parentNode.insertBefore(s, ss[i]);break;}}}var s=document.createElement('script');if (s.async==undefined){if (window.addEventListener) {addEventListener('load',async_load,false);}else if (window.attachEvent) {attachEvent('onload',async_load);}}else {async_load();}})();</script>
+		</div>
+
+	</body>
+</html>
